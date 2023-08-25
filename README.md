@@ -24,7 +24,7 @@
 
 ## ABOUT TOOL :
 
-Kalimux is a bash based script which automatically installs kali linux in termux without any issue and without root. This tool works on both rooted Android device and Non-rooted Android device.
+Kalimux is a bash-based script that automatically installs Kali Linux in Termux without root. This tool works on both rooted Android devices and non-rooted Android devices.
 
 <p align="center"><a href="https://rebrand.ly/noobhacktube"><img title="Noob Hackers" src="https://user-images.githubusercontent.com/49580304/117566254-31801e00-b0d3-11eb-860d-5601b1adccb8.jpg"></a>
 </p>
@@ -38,16 +38,16 @@ Kalimux is a bash based script which automatically installs kali linux in termux
 * Termux
 
 ### REQUIREMENTS :
-* internet
-* 1GB storage
-* storage 400 MB
-* vnc vivewer app
+* Internet access
+* 1GB RAM
+* 400 MB storage space
+* VNC Viewer
 
 ## FEATURES :
-* [+] Stable and latest !
-* [+] Gui in android !
-* [+] Real time kali linux !
-* [+] Easy for Beginners !
+* [+] Stable and latest!
+* [+] GUI in Android!
+* [+] Real-time Kali Linux!
+* [+] Easy for Beginners!
 
 ## INSTALLATION [Termux] :
 
@@ -63,35 +63,32 @@ Kalimux is a bash based script which automatically installs kali linux in termux
 * `cd kalimux`
 * `ls`
 * `sh kalimux.sh`
-```
-* So after installtion completes the text files will occur just copy it by long click on text
-```
+
+After installation is completed the text files will appear. Now, copy it by long pressing on the text then type:
+
 `./start-kali.sh`
-```
-Now linux has been installed succesfullly in termux without root. But wait if you like to use kali linus as GUI in your android device then you need to download a application called VNC viewer after downloading that. just start kali linux in termux and paste that copied text in that and wait for it to install complete linux os in termux. After installation completes just apply this command in kali 
-```
+
+Now Linux has been installed successfully in Termux without root. But if you like to use Kali Linux as a GUI on your Android device then you need to download an application called VNC Viewer. After downloading start Kali Linux in Termux paste the copied text in that and wait for it to install the complete Linux OS in Termux. After installation completes, apply the following command in Kali: 
+
 `vncserver-start`
-```
-Now the server starts on host 127.0.0.1:5901
 
-Now open VNC viewer and click on + icon and create host access
+_Now the server will start on host 127.0.0.1:5901_
 
-Now the the gui of kali linux has been started in VNC viewer so start practising now......
+Now, perform the following steps:
 
-Note:- Don't remove termux from background while using kali linux in VNC viwer beacuse the vnc host files are present in termux app so.
+1. Open the VNC viewer click on the + icon and create host access.
 
-[+]--Now you need internet connection to continue further process...
+> _Now the GUI of Kali Linux has been started in VNC viewer._
 
-[+]--You can select any option by clicking on your keyboard
+## Points to be noted:-
 
-[+]--Note:- Don't delete any of the scripts included in core files
+1. Don't remove Termux from the background while using Kali Linux in the VNC Viewer because the VNC host files are present in the Termux app.
 
-[+]--new session and start TOR (tor) before starting the attack
-```
-## USAGE OPTIONS [Termux] :
+2. You can select any option by clicking on your keyboard
 
-__START__ :
-- From this option you can start installing kali linux in your android.
+3. Don't delete any of the scripts included in core files
+
+4. Start a new session and TOR before starting the attack
 
 ## SCREEN SHOTS [Termux]
 
@@ -123,4 +120,4 @@ __START__ :
 </p>
 
 ## WARNING : 
-***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
+***This tool is only for educational purposes. If you use this tool for other purposes except education we will not be responsible in such cases.***
